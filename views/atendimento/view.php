@@ -44,7 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'email_Cliente:email',
             ['label'=>'Hora',
                 'format'=>'raw',      								                    	//para nao fazer uma checagem, forma cru
-                'value'=>Html::a($model->hora.":00 horas")		//link para redirecionar ao clik, para usar a Url, coloca:: USE yii\helpers\Url; e caso n ter coloque use yii\helpers\Html;
+                'value'=>Html::a($model->hora0->hora)		//link para redirecionar ao clik, para usar a Url, coloca:: USE yii\helpers\Url; e caso n ter coloque use yii\helpers\Html;
             ],
             //'hora',
         ],

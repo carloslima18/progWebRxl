@@ -31,6 +31,7 @@ class Horarios extends \yii\db\ActiveRecord
             ['hora', 'date', 'format'=>'H:i'],
             [['hora'], 'required'],
             [['hora'], 'safe'],
+            //[['hora'], 'time'],
         ];
     }
 

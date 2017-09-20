@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Fisioterapeuta */
 
-$this->title = $model->crefito;
+$this->title = $model->nome;
 $this->params['breadcrumbs'][] = ['label' => 'Fisioterapeutas', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
